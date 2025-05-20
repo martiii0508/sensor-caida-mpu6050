@@ -31,8 +31,8 @@ void loop() {
   Serial.print(gy); Serial.print(" ");
   Serial.println(gz);
   
-  Serial.println("----------------------");
+  Serial.println("----------------------"); //Convertir datos a unidades de aceleracion
+
   delay(500);
 }
-
 
